@@ -1,0 +1,19 @@
+{
+  "name": "create-iaso-analysis",
+  "version": "1.0.0",
+  "description": "iaso analysis project scaffold",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IASO-AI/create-iaso-analysis.git"
+  },
+  "author": "gen-prime",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IASO-AI/create-iaso-analysis/issues"
+  },
+  "homepage": "https://github.com/IASO-AI/create-iaso-analysis#readme"
+}
