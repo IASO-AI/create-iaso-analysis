@@ -93,6 +93,31 @@ npx create-iaso-analysis IASO-AI/iaso-analysis-template
 npx create-iaso-analysis --offline --template ~/templates/iaso-analysis
 ```
 
+## Example Output
+
+```bash
+$ npx create-iaso-analysis <your-repo-url>
+
+create-iaso-analysis
+
+✔ Template repository URL: … <template-repo-url>
+✔ Package manager: › bun
+○ Cloning <your-repo-url>...
+✓ Repository cloned.
+○ Cloning template from <template-repo-url>...
+✓ Template cloned.
+⚠ The following files/folders already exist: .gitignore
+✔ Overwrite existing files? … yes
+○ Copying template files...
+✓ Template files copied.
+⚠ No package.json found, skipping dependency installation.
+
+✓ Project created successfully!
+
+  $ cd <your-project-name>
+  $ bun dev
+```
+
 ## Interactive Prompts
 
 After running the command, the CLI guides you through:
