@@ -2,7 +2,7 @@ import path from 'node:path';
 import prompts from 'prompts';
 import type { PromptResults } from './types.js';
 
-const DEFAULT_TEMPLATE_REPO = 'git@github.com:IASO-AI/iaso-analysis-template.git';
+const DEFAULT_TEMPLATE_REPO = 'https://github.com/IASO-AI/iaso-analysis-template.git';
 
 function onCancel() {
   throw new Error('Operation cancelled.');

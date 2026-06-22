@@ -1,6 +1,6 @@
 {
   "name": "create-iaso-analysis",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "iaso analysis project scaffold",
   "type": "module",
   "bin": {
